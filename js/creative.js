@@ -1,29 +1,10 @@
 /*
-	Be by TEMPLATE STOCK
+	Canvas by TEMPLATE STOCK
 	templatestock.co @templatestock
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
 (function($) {
-/* ---------------------------------------------- /*
-	 * owl header
-	/* ---------------------------------------------- */
-$(document).ready(function() {
-      $(".header1").owlCarousel({
-        autoPlay : 3000,
-        stopOnHover : true,
-        navigation:true,
-        paginationSpeed : 1000,
-        goToFirstSpeed : 2000,
-        singleItem : true,
-        autoHeight : true,
-        navigationText:["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
-		itemsDesktop : [1199,2],
-	  itemsDesktopSmall : [980,2],
-	  itemsTablet: [768,1],
-	  itemsMobile : [479,1],
-      });
-    });
 /* ---------------------------------------------- /*
 	 * Preloader
 	/* ---------------------------------------------- */
@@ -69,28 +50,9 @@ $(document).ready(function() {
             top: 100
         }
     })
-	
 
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
 })(jQuery); // End of use strict
-/* Parallax
- =============================================*/
-;
-(function ($) {
-    include('../../js/jquery.rd-parallax.js');
-})(jQuery); 
 
-/* filter
- =============================================*/
-/*--------------------------
-	scrollUp
----------------------------- */	
-	$.scrollUp({
-        scrollText: '<i class="fa fa-angle-up"></i>',
-        easingType: 'linear',
-        scrollSpeed: 900,
-        animation: 'fade'
-    });
-	   
