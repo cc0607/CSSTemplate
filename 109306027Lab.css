@@ -1,0 +1,86 @@
+.myBorder1{
+
+	border: 5px solid black;
+	position: absolute;
+	left: 150px;
+	top: 0px;
+
+
+	
+}
+.myBorder2{
+
+	border: 5px solid black;
+	position: absolute;
+	right: 150px;
+	
+}
+
+.lab1{
+
+	height: 400px;
+	width: 1000px;
+
+}
+
+.hw2{
+
+	position: relative;
+	left: 50%;
+	
+}
+
+.pinkyBackground{
+
+
+
+	background-image: url('pink-wallpaper.jpg');
+	background-size: 100%,100%;
+	background-repeat: no-repeat;
+	border-color: purple;
+	border-style: dotted;
+	border-width: 3px;
+
+}
+#pic,img{
+	
+	position: relative;
+	border: 5px solid rosybrown;
+
+}
+.img{
+
+	position: absolute;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#head{
+			                
+	color: lightblue;
+			
+	text-align: left;
+		                }
+span{
+
+	color: rosybrown;
+	font-weight: bold;
+	text-decoration: underline;
+
+		                }
+		                .extra span{
+
+			                color: inherit;
+
+		                }
+
+		                l1 em{
+
+			                font-family: fantasy;
+			                color: cornflowerblue;
+
+		                }
+
+		                h3,em{
+			                font-family: cursive;
+			                color: seagreen;
+		                }
