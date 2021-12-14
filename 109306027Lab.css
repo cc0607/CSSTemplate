@@ -19,7 +19,7 @@
 .lab1{
 
 	height: 400px;
-	width: 1000px;
+	width: 100%px;
 
 }
 
@@ -42,7 +42,7 @@
 	border-width: 3px;
 
 }
-#pic,img{
+img{
 	
 	position: relative;
 	border: 5px solid rosybrown;
