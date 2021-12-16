@@ -40,6 +40,10 @@
 	border-color: purple;
 	border-style: dotted;
 	border-width: 3px;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
 
 }
 img{
