@@ -36,6 +36,7 @@
 
 	background-image: url('pink-wallpaper.jpg');
 	background-size: 100%,100%;
+	background-position: center;
 	background-repeat: no-repeat;
 	border-color: purple;
 	border-style: dotted;
